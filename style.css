@@ -13,6 +13,25 @@ a{
   text-decoration: none;
 }
 
+/*Scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 10px;
+}
+
 /*Header*/
 
 #navBar .container{
@@ -90,12 +109,12 @@ a{
 #start .goDown{
   display: flex;
   justify-content: center;
-  color: #777;
   padding-top: 60px;
   opacity: 100%;
   animation-name: visible;
   animation-duration: 4s;
 }
+
 
 
 @keyframes visible {
