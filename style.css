@@ -5,6 +5,7 @@
 
 body, head{
   font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8
 }
 
 a{
@@ -49,4 +50,55 @@ a{
 
 #navBar ul li a:hover,#navBar ul li a.current{
   color: #242424;
+}
+
+/*section*/
+
+#start .container {
+  display: flex;
+  /* flex-direction: column; */
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#start .container .circleTitle{
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#start .container .titolo h1{
+  font-size: 40px;
+  position: relative;
+}
+
+#start .FastDescription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+  font-size: 20px;
+  opacity: 100%;
+  animation-name: visible;
+  animation-duration: 4s;
+}
+
+#start .goDown{
+  display: flex;
+  justify-content: center;
+  color: #777;
+  padding-top: 60px;
+  opacity: 100%;
+  animation-name: visible;
+  animation-duration: 4s;
+}
+
+
+@keyframes visible {
+  from {opacity: 0;}
+  to {opacity: 100%;}
 }
