@@ -2,3 +2,51 @@
   margin: 0;
   padding: 0;
 }
+
+body, head{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+/*Header*/
+
+#navBar .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#navBar .container ul{
+  display: flex;
+  padding-right: 1rem;
+}
+
+#navBar .container ul li{
+  list-style: none;
+  margin-left: 10px;
+}
+
+#navBar .container ul #noGithub{
+  margin-top: 8px;
+}
+
+#navBar .container ul li a{
+  padding: 20px;
+  display: block;
+  color: #777;
+}
+
+#navBar .container h2{
+  color: #777;
+}
+
+
+#navBar ul li a:hover,#navBar ul li a.current{
+  color: #242424;
+}
