@@ -106,16 +106,32 @@ a{
   animation-duration: 4s;
 }
 
-#start .goDown{
+#start .FastDescription .simplyDescription{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding-top: 60px;
-  opacity: 100%;
-  animation-name: visible;
-  animation-duration: 4s;
+  align-items: center;
 }
 
+#start .FastDescription .simplyDescription #SimpleDescRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #777;
+  height: 5px;
+  width: 325px;
+  position: relative;
+  top: 10px;
+  transition-duration: 0.50s;
+}
 
+#start .FastDescription .simplyDescription #SimpleDescRow:hover{
+  background-color: #777;
+  height: 5px;
+  width: 200px;
+  position: relative;
+  top: 10px;
+}
 
 @keyframes visible {
   from {opacity: 0;}
