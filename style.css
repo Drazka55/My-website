@@ -88,6 +88,11 @@ a{
   border-radius: 50%;
   position: absolute;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition-duration: 0.5s;
+}
+
+#start .container .circleTitle:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 }
 
 #start .container .titolo h1{
@@ -116,7 +121,6 @@ a{
   width: 325px;
   position: relative;
   top: 10px;
-  transition-duration: 0.5s;
   transition: all 0.5s ease-out; /*Applica questa transizione a tutte le proprieta' / durata / tipo di effetto della transizione*/
 }
 
@@ -124,6 +128,19 @@ a{
   width: 200px;
 }
 
+#start .divArrow #downArrow{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding-top: 50px;
+  color: #777;
+  animation: goDownArrow 1s infinite alternate linear;
+}
+
+@keyframes goDownArrow {
+  from { padding-top: 50px;}
+  to { padding-top: 80px;}
+}
 
 @keyframes visible {
   from {opacity: 0;}
