@@ -97,6 +97,7 @@ a{
 
 #start .FastDescription{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #777;
@@ -106,29 +107,13 @@ a{
   animation-duration: 4s;
 }
 
-#start .FastDescription .simplyDescription{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#start .FastDescription .simplyDescription #SimpleDescRow{
+#start .FastDescription #SimpleDescRow{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #777;
   height: 5px;
   width: 325px;
-  position: relative;
-  top: 10px;
-  transition-duration: 0.50s;
-}
-
-#start .FastDescription .simplyDescription #SimpleDescRow:hover{
-  background-color: #777;
-  height: 5px;
-  width: 200px;
   position: relative;
   top: 10px;
 }

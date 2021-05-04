@@ -11,3 +11,14 @@ function typeWriter(){
 }
 
 typeWriter();
+
+document.querySelector('.FastDescription').addEventListener("mouseover", mouseOver);
+document.querySelector('.FastDescription').addEventListener("mouseover", mouseOut);
+
+function mouseOver(){
+  document.querySelector('#SimpleDescRow').style.width='200px';
+}
+
+function mouseOut(){
+  document.querySelector('#SimpleDescRow').style.width='325';
+}
