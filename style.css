@@ -128,6 +128,11 @@ a{
   width: 200px;
 }
 
+#start .divArrow{
+  position: block;
+  height: 200px;
+}
+
 #start .divArrow #downArrow{
   display: flex;
   justify-content: center;
@@ -135,6 +140,47 @@ a{
   padding-top: 50px;
   color: #777;
   animation: goDownArrow 1s infinite alternate linear;
+}
+
+#madeWhit .color{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 420px;
+}
+
+#madeWhit .color h1{
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+#madeWhit .color #heart{
+  color: red;
+}
+
+#madeWhit .color .icons{
+  justify-content:center;
+  display: flex;
+  flex: 1;
+  padding-top: 70px
+}
+
+#madeWhit .color .icons i{
+  padding: 50px;
+}
+
+#madeWhit .color .icons #htm5{
+  color: #ff751a;
+}
+
+#madeWhit .color .icons #Css{
+  color: #3399ff;
+}
+
+#madeWhit .color .icons #JS{
+  color: #ffd11a;
 }
 
 @keyframes goDownArrow {
