@@ -148,7 +148,7 @@ a{
   justify-content: center;
   align-items: center;
   background-color: white;
-  height: 420px;
+  height: 400px;
 }
 
 #madeWith .color h1{
@@ -157,6 +157,11 @@ a{
 }
 
 #madeWith .color #heart{
+  color: #777;
+  transition: all 0.5s ease-out;
+}
+
+#madeWith .color #heart:hover{
   color: red;
 }
 
@@ -164,7 +169,7 @@ a{
   justify-content:center;
   display: flex;
   flex: 1;
-  padding-top: 70px
+  padding-top: 40px
 }
 
 #madeWith .color .icons i{
@@ -196,6 +201,104 @@ a{
 
 #madeWith .color .icons #JS:hover{
   color: #ffd11a;
+}
+
+#myProjects{
+  height: 800px;
+}
+
+#myProjects .projectOne{
+  background-color: #f8f8f8;
+  height: 200px;
+  display: flex;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectOne #line{
+  position: relative;
+  top: 70px;
+  width: 150px;
+  height: 1px;
+  background-color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectOne h3{
+  position: relative;
+  top: 60px;
+  padding-left: 10px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectOne .description{
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectOne .description h1{
+  position: relative;
+  top: 50px;
+  font-size: 40px;
+  padding-left: 30px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectOne .description p{
+  position: relative;
+  top: 60px;
+  padding-left: 30px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectOne h2{
+  position: relative;
+  top: 70px;
+  left: 730px;
+  font-size: 20px;
+  color: black;
+  background-color: #cccccc;
+  height: 25px;
+  padding: 10px;
+  border-radius: 45px;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectOne:hover{
+  background-color: white;
+}
+
+#myProjects .projectOne:hover #line{
+  background-color: #595959;
+  width: 250px;
+}
+
+#myProjects .projectOne:hover h3{
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+}
+
+#myProjects .projectOne:hover .description h1{
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  color: black;
+}
+
+#myProjects .projectOne:hover .description p{
+  position: relative;
+  top: 40px;
+}
+
+#myProjects .projectOne:hover h2{
+  background-color: #ccc;
+  position: relative;
+  top: 70px;
+  left: 600px;
 }
 
 @keyframes goDownArrow {
