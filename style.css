@@ -116,7 +116,14 @@ a{
   width: 325px;
   position: relative;
   top: 10px;
+  transition-duration: 0.5s;
+  transition: all 0.5s ease-out; /*Applica questa transizione a tutte le proprieta' / durata / tipo di effetto della transizione*/
 }
+
+#start .FastDescription:hover #SimpleDescRow{ /*Se vado sopra a #start .FastDescription mi modifichi hover #SimpleDescRow*/
+  width: 200px;
+}
+
 
 @keyframes visible {
   from {opacity: 0;}
