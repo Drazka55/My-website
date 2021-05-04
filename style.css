@@ -142,7 +142,7 @@ a{
   animation: goDownArrow 1s infinite alternate linear;
 }
 
-#madeWhit .color{
+#madeWith .color{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,35 +151,50 @@ a{
   height: 420px;
 }
 
-#madeWhit .color h1{
+#madeWith .color h1{
   padding-top: 30px;
   font-size: 30px;
 }
 
-#madeWhit .color #heart{
+#madeWith .color #heart{
   color: red;
 }
 
-#madeWhit .color .icons{
+#madeWith .color .icons{
   justify-content:center;
   display: flex;
   flex: 1;
   padding-top: 70px
 }
 
-#madeWhit .color .icons i{
+#madeWith .color .icons i{
   padding: 50px;
 }
 
-#madeWhit .color .icons #htm5{
+#madeWith .color .icons #htm5{
+  color: #777;
+  transition: all 0.5s ease-out;
+}
+
+#madeWith .color .icons #Css{
+  color: #777;
+  transition: all 0.5s ease-out;
+}
+
+#madeWith .color .icons #JS{
+  color: #777;
+  transition: all 0.5s ease-out;
+}
+
+#madeWith .color .icons #htm5:hover{
   color: #ff751a;
 }
 
-#madeWhit .color .icons #Css{
+#madeWith .color .icons #Css:hover{
   color: #3399ff;
 }
 
-#madeWhit .color .icons #JS{
+#madeWith .color .icons #JS:hover{
   color: #ffd11a;
 }
 
