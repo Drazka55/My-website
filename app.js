@@ -14,16 +14,21 @@ setTimeout(typeWriter, 375);
 
 function scrollAppear(){
   const project1 = document.querySelector('.projectOne');
-  const introPosition1 = project1.getBoundingClientRect().top; //Prendiamo la distanza dall' altro del nostro elemento
   const project2 = document.querySelector('.projectTwo');
+  const project3 = document.querySelector('.projectThree');
+  const introPosition1 = project1.getBoundingClientRect().top; //Prendiamo la distanza dall' altro del nostro elemento
   const introPosition2 = project2.getBoundingClientRect().top;
+  const introPosition3 = project3.getBoundingClientRect().top;
   const screenPosition = window.innerHeight - 300; //Salviamo l'altezza della pagina in pixel
 
   if(introPosition1 < screenPosition){
     project1.classList.add('projectOneVisible')//Aggiungiamo una classe
   }
   if(introPosition2 < screenPosition){
-    project2.classList.add('projectTwoVisible')//Aggiungiamo una classe
+    project2.classList.add('projectTwoVisible')
+  }
+  if(introPosition3 < screenPosition){
+    project3.classList.add('projectThreeVisible')
   }
 }
 

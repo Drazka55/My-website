@@ -371,6 +371,88 @@ a{
   top: 40px;
 }
 
+#myProjects .projectThree{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5 all ease-in-out;
+}
+
+#myProjects .projectThreeVisible{
+  opacity: 1;
+  transform: translateY(0);
+  background-color: #f8f8f8;
+  height: 200px;
+  display: flex;
+  transition: all 1s ease-out;
+}
+
+#myProjects .projectThreeVisible #line{
+  position: relative;
+  top: 70px;
+  width: 150px;
+  height: 1px;
+  background-color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectThreeVisible h3{
+  position: relative;
+  top: 60px;
+  padding-left: 10px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectThreeVisible .description{
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectThreeVisible .description h1{
+  position: relative;
+  top: 50px;
+  font-size: 40px;
+  padding-left: 30px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectThreeVisible .description p{
+  position: relative;
+  top: 60px;
+  padding-left: 30px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectThreeVisible:hover{
+  background-color: white;
+}
+
+#myProjects .projectThreeVisible:hover #line{
+  background-color: #595959;
+  width: 250px;
+}
+
+#myProjects .projectThreeVisible:hover h3{
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+}
+
+#myProjects .projectThreeVisible:hover .description h1{
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  color: black;
+}
+
+#myProjects .projectThreeVisible:hover .description p{
+  position: relative;
+  top: 40px;
+}
+
 @keyframes goDownArrow {
   from { padding-top: 50px;}
   to { padding-top: 80px;}
