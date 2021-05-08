@@ -208,13 +208,21 @@ a{
 }
 
 #myProjects .projectOne{
+  opacity: 0;
+  transform: translateY(20px); /*Gli diciamo che deve trovarsi a 20px piu' in basso*/
+  transition: 0.5 all ease-in-out;
+}
+
+#myProjects .projectOneVisible{
+  opacity: 1;
+  transform: translateY(0);
   background-color: #f8f8f8;
   height: 200px;
   display: flex;
-  transition: all 0.5s ease-out;
+  transition: all 1s ease-out;
 }
 
-#myProjects .projectOne #line{
+#myProjects .projectOneVisible #line{
   position: relative;
   top: 70px;
   width: 150px;
@@ -223,7 +231,7 @@ a{
   transition: all 0.5s ease-out;
 }
 
-#myProjects .projectOne h3{
+#myProjects .projectOneVisible h3{
   position: relative;
   top: 60px;
   padding-left: 10px;
@@ -231,13 +239,13 @@ a{
   transition: all 0.5s ease-out;
 }
 
-#myProjects .projectOne .description{
+#myProjects .projectOneVisible .description{
   display: flex;
   flex-direction: column;
   transition: all 0.5s ease-out;
 }
 
-#myProjects .projectOne .description h1{
+#myProjects .projectOneVisible .description h1{
   position: relative;
   top: 50px;
   font-size: 40px;
@@ -246,7 +254,7 @@ a{
   transition: all 0.5s ease-out;
 }
 
-#myProjects .projectOne .description p{
+#myProjects .projectOneVisible .description p{
   position: relative;
   top: 60px;
   padding-left: 30px;
@@ -254,7 +262,7 @@ a{
   transition: all 0.5s ease-out;
 }
 
-#myProjects .projectOne h2{
+#myProjects .projectOneVisible h2{
   position: relative;
   top: 70px;
   left: 730px;
@@ -267,34 +275,34 @@ a{
   transition: all 0.5s ease-out;
 }
 
-#myProjects .projectOne:hover{
+#myProjects .projectOneVisible:hover{
   background-color: white;
 }
 
-#myProjects .projectOne:hover #line{
+#myProjects .projectOneVisible:hover #line{
   background-color: #595959;
   width: 250px;
 }
 
-#myProjects .projectOne:hover h3{
+#myProjects .projectOneVisible:hover h3{
   font-size: 25px;
   position: relative;
   top: 50px;
 }
 
-#myProjects .projectOne:hover .description h1{
+#myProjects .projectOneVisible:hover .description h1{
   position: relative;
   top: 30px;
   font-size: 50px;
   color: black;
 }
 
-#myProjects .projectOne:hover .description p{
+#myProjects .projectOneVisible:hover .description p{
   position: relative;
   top: 40px;
 }
 
-#myProjects .projectOne:hover h2{
+#myProjects .projectOneVisible:hover h2{
   background-color: #ccc;
   position: relative;
   top: 70px;
