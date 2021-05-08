@@ -204,7 +204,7 @@ a{
 }
 
 #myProjects{
-  height: 800px;
+  height: 605px;
 }
 
 #myProjects .projectOne{
@@ -451,6 +451,50 @@ a{
 #myProjects .projectThreeVisible:hover .description p{
   position: relative;
   top: 40px;
+}
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 400px;
+}
+
+#footer h1{
+  font-size: 50px;
+}
+
+#footer h3{
+  padding-top: 50px;
+  color: #8f8e8e;
+}
+
+#footer .social{
+  padding-top: 50px;
+  display: flex;
+}
+
+#footer .social i{
+  color: white;
+  padding: 1px 3px;
+  transition: 1s;
+}
+
+#footer .social #instagram{
+  margin-right: 30px;
+}
+
+#footer .social #Git{
+  padding: 1px 2px;
+}
+
+#footer .social i:hover{
+  background-color: white;
+  border-radius: 15px;
+  color: black;
 }
 
 @keyframes goDownArrow {
