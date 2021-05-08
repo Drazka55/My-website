@@ -262,19 +262,6 @@ a{
   transition: all 0.5s ease-out;
 }
 
-#myProjects .projectOneVisible h2{
-  position: relative;
-  top: 70px;
-  left: 730px;
-  font-size: 20px;
-  color: black;
-  background-color: #cccccc;
-  height: 25px;
-  padding: 10px;
-  border-radius: 45px;
-  transition: all 0.5s ease-out;
-}
-
 #myProjects .projectOneVisible:hover{
   background-color: white;
 }
@@ -302,11 +289,86 @@ a{
   top: 40px;
 }
 
-#myProjects .projectOneVisible:hover h2{
-  background-color: #ccc;
+#myProjects .projectTwo{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5 all ease-in-out;
+}
+
+#myProjects .projectTwoVisible{
+  opacity: 1;
+  transform: translateY(0);
+  background-color: #f8f8f8;
+  height: 200px;
+  display: flex;
+  transition: all 1s ease-out;
+}
+
+#myProjects .projectTwoVisible #line{
   position: relative;
   top: 70px;
-  left: 600px;
+  width: 150px;
+  height: 1px;
+  background-color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectTwoVisible h3{
+  position: relative;
+  top: 60px;
+  padding-left: 10px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectTwoVisible .description{
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectTwoVisible .description h1{
+  position: relative;
+  top: 50px;
+  font-size: 40px;
+  padding-left: 30px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectTwoVisible .description p{
+  position: relative;
+  top: 60px;
+  padding-left: 30px;
+  color: #8f8e8e;
+  transition: all 0.5s ease-out;
+}
+
+#myProjects .projectTwoVisible:hover{
+  background-color: white;
+}
+
+#myProjects .projectTwoVisible:hover #line{
+  background-color: #595959;
+  width: 250px;
+}
+
+#myProjects .projectTwoVisible:hover h3{
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+}
+
+#myProjects .projectTwoVisible:hover .description h1{
+  position: relative;
+  top: 30px;
+  font-size: 50px;
+  color: black;
+}
+
+#myProjects .projectTwoVisible:hover .description p{
+  position: relative;
+  top: 40px;
 }
 
 @keyframes goDownArrow {
