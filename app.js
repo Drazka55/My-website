@@ -10,4 +10,4 @@ function typeWriter(){
   }
 }
 
-typeWriter();
+setTimeout(typeWriter, 375);
