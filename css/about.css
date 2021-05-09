@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, head{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+/*Scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 10px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h1{
+margin-bottom: 20px;
+}
+
+.text #button{
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}

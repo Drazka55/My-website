@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth; /*fa l'animazione di scrolling in modo "Smooth"*/
+}
+
 body, head{
   font-family: 'Roboto', sans-serif;
   background-color: #f8f8f8
