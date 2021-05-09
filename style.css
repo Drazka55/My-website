@@ -487,16 +487,6 @@ a{
   margin-right: 30px;
 }
 
-#footer .social #Git{
-  padding: 1px 2px;
-}
-
-#footer .social i:hover{
-  background-color: white;
-  border-radius: 15px;
-  color: black;
-}
-
 @keyframes goDownArrow {
   from { padding-top: 50px;}
   to { padding-top: 80px;}
