@@ -64,6 +64,7 @@ a{
   padding: 20px;
   display: block;
   color: #777;
+  transition: 0.3s;
 }
 
 #navBar .container h2{

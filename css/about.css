@@ -32,20 +32,129 @@ a{
   border-radius: 10px;
 }
 
-.text{
+/*Header*/
+
+#navBar .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#navBar .container ul{
+  display: flex;
+  padding-right: 1rem;
+}
+
+#navBar .container ul li{
+  list-style: none;
+  margin-left: 10px;
+}
+
+#navBar .container ul #noGithub{
+  margin-top: 8px;
+}
+
+#navBar .container ul li a{
+  padding: 20px;
+  display: block;
+  color: #777;
+  transition: 0.3s;
+}
+
+#navBar .container h2{
+  color: #777;
+}
+
+
+#navBar ul li a:hover,#navBar ul li a.current{
+  color: #242424;
+}
+
+/*section*/
+
+#start{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#start .container {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  margin-right: 250px;
+}
+
+#start .container .titolo h1{
+  font-size: 50px;
+  position: relative;
+}
+
+#start .container .Description{
+  margin-top: 20px;
+  align-items: center;
+  color: #777;
+  font-size: 20px;
+}
+
+#start img{
+  border-radius: 50%;
+}
+
+#words .word{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
-.text h1{
-margin-bottom: 20px;
+#words .word h1{
+  font-size: 35px;
 }
 
-.text #button{
-  padding: 5px 10px;
-  border-radius: 15px;
+#words .word p{
+  margin-top: 20px;
+  margin-left: 1230px;
+  color: #777;
+}
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: black;
   color: white;
+  height: 400px;
+}
+
+#footer h1{
+  font-size: 50px;
+}
+
+#footer h3{
+  padding-top: 50px;
+  color: #8f8e8e;
+}
+
+#footer .social{
+  padding-top: 50px;
+  display: flex;
+}
+
+#footer .social i{
+  color: white;
+  padding: 1px 3px;
+  transition: 1s;
+}
+
+#footer .social #instagram{
+  margin-right: 30px;
 }
