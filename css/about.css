@@ -42,6 +42,10 @@ a{
   padding-left: 10%;
 }
 
+#navBar .container img{
+  padding-top: 10px;
+}
+
 #navBar .container ul{
   display: flex;
   padding-right: 1rem;
